@@ -1,5 +1,5 @@
 ## dork.py is the script
-## search_reusults.json are the results of running this method on ~100 products
+## search_results.json are the results of running this method on ~100 products
 ## urls.py are the URLs I used to run the test
 
 ### This script calls the google search console API in the same way that a google dork query works. It then scrapes the meta data for the URL that gets returned. 
