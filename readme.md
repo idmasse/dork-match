@@ -1,12 +1,16 @@
+## dork.py is the script
+## search_reusults.json are the results of running this method on ~100 products
+## urls.py are the URLs I used to run the test
+
 ### This script calls the google search console API in the same way that a google dork query works. It then scrapes the meta data for the URL that gets returned. 
 
-### Lets say you're looking for the product "Rehna Long Sleeve Top White" on Princess Pollys website. You can narrow down your google search results and get an more accurate match by searching for: 
+#### Lets say you're looking for the product "Rehna Long Sleeve Top White" on Princess Pollys website. You can narrow down your google search results and get an more accurate match by searching for: 
 
-### site:princesspolly.* Rehna Long Sleeve Top White
+#### site:princesspolly.* Rehna Long Sleeve Top White
 
-### You would get back this URL: https://us.princesspolly.com/products/rehna-long-sleevetop-white?srsltid=AfmBOorWBj4vXETbtj147gse2bSTQqJbZwVCBgsVbmr2FEO3jHfHSy-1
+#### You would get back this URL: https://us.princesspolly.com/products/rehna-long-sleevetop-white?srsltid=AfmBOorWBj4vXETbtj147gse2bSTQqJbZwVCBgsVbmr2FEO3jHfHSy-1
 
-### When running this script, you get this: 
+#### When running this script, you get this: 
 
 },
     "site:princesspolly.* Rehna Long Sleeve Top White": {
